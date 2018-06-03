@@ -1,0 +1,18 @@
+.footer-text {
+    background-color: #fff; 
+    padding: 10px;
+    border: #ddd 1px solid;
+}
+
+.border-area {
+    background-color: #fff; 
+    padding: 10px;
+    border: #ddd 1px solid;
+}
+
+.comment-textarea, .comment-button {
+	width: 100%;
+	padding: 15px;
+	border: #ccc solid 1px;
+    margin-bottom: 15px;
+}
