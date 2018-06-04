@@ -1,13 +1,12 @@
 <!doctype html>
-<html lang="en">
-
+<html <?php language_attributes(); ?>
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <?php wp_head(  ); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?> >
     <div class="container">
 		<!--Nav Menu-->
         <div class="row">
