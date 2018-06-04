@@ -22,3 +22,7 @@ require_once get_template_directory() . '/assets/classes/class-wp-bootstrap-navw
 register_nav_menus( array(
 	'primary' => __( 'Primary Menu', 'moduler' ),
 ) );
+
+
+//Addding title tag support.
+add_theme_support( 'title-tag' );

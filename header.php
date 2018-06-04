@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <title>Super Simple Blog</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <?php wp_head(  ); ?>
