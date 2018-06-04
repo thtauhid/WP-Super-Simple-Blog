@@ -27,9 +27,6 @@
 					
                     <?php endwhile; ?>
 
-
-
-
 				</div>
             </div>
         </div>
