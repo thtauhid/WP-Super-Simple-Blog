@@ -24,5 +24,16 @@ register_nav_menus( array(
 ) );
 
 
+//Excerpt Length
+function excerpt_length()	{
+	return 20;
+}
+
+add_filter('excerpt_length', 'excerpt_length');
+add_theme_support('post-thumbnails');
+add_theme_support( 'automatic-feed-links' );
+
 //Addding title tag support.
 add_theme_support( 'title-tag' );
+
+

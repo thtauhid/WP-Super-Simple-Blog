@@ -32,3 +32,52 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	border: #ccc solid 1px;
     margin-bottom: 15px;
 }
+
+.comments {
+	border: 1px #ddd solid;
+	padding: ;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.comments h2, .comments h3 {
+	background: #f4f4f4;
+	color:#333;
+	padding: 5px;
+}
+
+.comment-body {
+	border: #ccc 1px solid;
+	margin-bottom: 10px;
+	padding: 20px 10px;
+}
+
+.comment-meta {
+	background: #fff; 
+	color: #fff;
+	padding: 10px;
+	overflow: auto;
+}
+
+.comment-meta img {
+	float: left;
+	margin-right: 10px;
+}
+
+.comment-reply-link {
+	background; #fff;
+	color: #000;
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.comment-form input, .comment-form textarea {
+	width: 100%;
+	padding: 15px;
+	border: #ccc solid 1px;
+	margin-bottom: 15px;
+}
+
+li {
+	list-style: none;
+}
