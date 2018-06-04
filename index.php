@@ -37,10 +37,10 @@
         <div class="row">
     <div class="col-8">
       <div class="text-right">
-        <?php previous_posts_link(__('Newer>>', 'moduler')); ?>
+        <?php previous_posts_link(__('Newer', 'moduler')); ?>
       </div>
       <div class="text-left">
-        <?php next_posts_link(__('<<Older', 'moduler')); ?>
+        <?php next_posts_link(__('Older', 'moduler')); ?>
       </div>
     </div>
   </div>
