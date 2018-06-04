@@ -12,3 +12,13 @@ function moduler_add_bootstrap() {
     }
     
     add_action( 'wp_enqueue_scripts', 'moduler_add_bootstrap');
+
+
+//Adding WP Bootstrap Navwaalker
+require_once get_template_directory() . '/assets/classes/class-wp-bootstrap-navwalker.php';
+
+
+//Registering menu.
+register_nav_menus( array(
+	'primary' => __( 'Primary Menu', 'moduler' ),
+) );
