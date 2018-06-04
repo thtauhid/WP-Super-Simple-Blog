@@ -1,7 +1,7 @@
 <?php
 
 //Adding bootstrap.
-function super_simple_blog_blog_add_bootstrap() {
+function super_simple_blog_add_bootstrap() {
 
     wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
     wp_enqueue_script( 'jquery_js', get_template_directory_uri() . '/assets/js/jquery-3.2.1.slim.min.js' );
