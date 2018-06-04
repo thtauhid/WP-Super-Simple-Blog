@@ -29,6 +29,9 @@
 
 				</div>
             </div>
+            <div class="col-4">
+            <?php dynamic_sidebar( 'sidebar' ); ?>
+            </div>
         </div>
         
         <div class="row">
@@ -44,6 +47,5 @@
         <?php else : ?>
       <p><?php echo esc_html( __('No Posts Found', 'super-simple-blog') ); ?></p>
     <?php endif; ?>
-
 
 <?php get_footer(); ?>
