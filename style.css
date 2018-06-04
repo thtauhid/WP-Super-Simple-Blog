@@ -35,7 +35,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .comments {
 	border: 1px #ddd solid;
-	padding: ;
+	padding: 10px;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
@@ -65,7 +65,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .comment-reply-link {
-	background; #fff;
+	background: #fff;
 	color: #000;
 	display: inline-block;
 	padding: 10px 10px;
@@ -81,3 +81,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 li {
 	list-style: none;
 }
+
+.wp-caption {}
+.wp-caption-text {}
+.screen-reader-text {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
