@@ -41,7 +41,10 @@
                 ) );
                 ?>
 
+                <div class="col-8">
+                <?php comments_template(); ?>
 
+                </div>
             <?php endif; ?>
         </div>
         

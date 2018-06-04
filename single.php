@@ -19,7 +19,11 @@
                             <div class="card-body">
                                 <h3 class="card-title"><?php the_title() ?></h3>
                                 <p><?php echo esc_html( __('On ', 'moduler') ); the_time('j F, Y');  echo esc_html( __(' by ', 'moduler') ); the_author_posts_link(); ?></p>
-                                <p class="card-text"><?php the_content() ?></p>
+                                <p class="card-text">
+                                    <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                                        <?php the_content() ?>
+                                    </div>
+                                </p>
                             </div>
                         </div>
 					</div>
@@ -61,7 +65,6 @@
             <?php endif; ?>
 
         </div>
-        <br>
 
 
 
