@@ -18,7 +18,7 @@
                             <br>
                             <div class="card-body">
                                 <h3 class="card-title"><?php the_title() ?></h3>
-                                <p><?php echo esc_html( __('On ', 'moduler') ); the_time('j F, Y');  echo esc_html( __(' by ', 'moduler') ); the_author_posts_link(); ?></p>
+                                <p><?php echo esc_html( __('On ', 'super-simple-blog') ); the_time('j F, Y');  echo esc_html( __(' by ', 'super-simple-blog') ); the_author_posts_link(); ?></p>
                                 <p class="card-text">
                                     <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                         <?php the_content() ?>
@@ -36,7 +36,7 @@
             <?php wp_link_pages( array(
                 'before'      => '  <div class="col-8">
                     <div class="card mb-4">
-                    <div class="card-body">' . __( 'Pages:', 'moduler' ) . '</span>',
+                    <div class="card-body">' . __( 'Pages:', 'super-simple-blog' ) . '</span>',
                 'after'       => '      </div>
                     </div>
                 </div>',
@@ -48,13 +48,13 @@
             <div class="col-8">
                 <div class="col-12 border-area">
                      <p>
-                        <?php echo esc_html( __('Categories: ', 'moduler') );  the_category( ', ' ); ?>
+                        <?php echo esc_html( __('Categories: ', 'super-simple-blog') );  the_category( ', ' ); ?>
                     </p>
                 </div>
                 <br>
                 <div class="col-12 border-area">
                     <p>
-                        <?php echo esc_html( __('Tags: ', 'moduler') ) . get_the_tag_list('', ', ', ''); ?>
+                        <?php echo esc_html( __('Tags: ', 'super-simple-blog') ) . get_the_tag_list('', ', ', ''); ?>
                     </p>
                 </div>
                 <br>

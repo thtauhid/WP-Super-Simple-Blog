@@ -17,9 +17,9 @@
                             <br>
                             <div class="card-body">
                                 <h3 class="card-title"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
-                                <p><?php echo esc_html( __('On ', 'moduler') ); the_time('j F, Y');  echo esc_html( __(' by ', 'moduler') ); the_author_posts_link(); ?></p>
+                                <p><?php echo esc_html( __('On ', 'super-simple-blog') ); the_time('j F, Y');  echo esc_html( __(' by ', 'super-simple-blog') ); the_author_posts_link(); ?></p>
                                 <p class="card-text"><?php the_excerpt() ?></p>
-                                <a href="<?php the_permalink() ?>"><?php echo esc_html( __('More >>', 'moduler') ); ?></a><br>
+                                <a href="<?php the_permalink() ?>"><?php echo esc_html( __('More >>', 'super-simple-blog') ); ?></a><br>
                             </div>
                         </div>
                         <hr> <hr>  <br> 
@@ -34,15 +34,15 @@
         <div class="row">
     <div class="col-8">
       <div class="text-right">
-        <?php previous_posts_link(__('Newer', 'moduler')); ?>
+        <?php previous_posts_link(__('Newer', 'super-simple-blog')); ?>
       </div>
       <div class="text-left">
-        <?php next_posts_link(__('Older', 'moduler')); ?>
+        <?php next_posts_link(__('Older', 'super-simple-blog')); ?>
       </div>
     </div>
   </div>
         <?php else : ?>
-      <p><?php echo esc_html( __('No Posts Found', 'moduler') ); ?></p>
+      <p><?php echo esc_html( __('No Posts Found', 'super-simple-blog') ); ?></p>
     <?php endif; ?>
 
 

@@ -18,7 +18,7 @@
                             <br>
                             <div class="card-body">
                                 <h3 class="card-title"><?php the_title() ?></h3>
-                                <p><?php echo esc_html( __('On ', 'moduler') ); the_time('j F, Y');  echo esc_html( __(' by ', 'moduler') ); the_author_posts_link(); ?></p>
+                                <p><?php echo esc_html( __('On ', 'super-simple-blog') ); the_time('j F, Y');  echo esc_html( __(' by ', 'super-simple-blog') ); the_author_posts_link(); ?></p>
                                 <p class="card-text"><?php the_content() ?></p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
             <?php wp_link_pages( array(
                 'before'      => '  <div class="col-8">
                     <div class="card mb-4">
-                    <div class="card-body">' . __( 'Pages:', 'moduler' ) . '</span>',
+                    <div class="card-body">' . __( 'Pages:', 'super-simple-blog' ) . '</span>',
                 'after'       => '      </div>
                     </div>
                 </div>',
