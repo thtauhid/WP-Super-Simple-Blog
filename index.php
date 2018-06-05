@@ -30,7 +30,7 @@
 				</div>
             </div>
             <div class="col-4">
-            <?php dynamic_sidebar( 'sidebar' ); ?>
+                    <?php dynamic_sidebar( 'sidebar' ); ?>
             </div>
         </div>
         
@@ -45,7 +45,10 @@
     </div>
   </div>
         <?php else : ?>
+        <div class="col-8">
+      <div class="text-right">
       <p><?php echo esc_html( __('No Posts Found', 'super-simple-blog') ); ?></p>
+      </div>
     <?php endif; ?>
 
 <?php get_footer(); ?>

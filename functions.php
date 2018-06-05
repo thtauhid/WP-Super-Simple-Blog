@@ -50,8 +50,8 @@ function super_simple_blog_sidebar() {
         'class'         => '',
         'before_widget' => '',
         'after_widget'  => '',
-        'before_title'  => '',
-        'after_title'   => '',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>',
     ) );
 }
 
