@@ -40,19 +40,3 @@ add_theme_support( 'title-tag' );
 if ( ! isset( $content_width ) ) {
 	$content_width = 650;
 }
-
-//Register Sidebar
-function super_simple_blog_sidebar() {
-    register_sidebar( array(
-        'name'          => __('Sidebar'),
-        'id'            => 'sidebar',
-        'description'   => '',
-        'class'         => '',
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>',
-    ) );
-}
-
-add_action('widgets_init', 'super_simple_blog_sidebar' );
